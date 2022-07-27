@@ -16,6 +16,7 @@ public class SimpleCharacerController : MonoBehaviour
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
 
+    private Vector3 characterFaceDriection = Vector3.forward;
     private Vector3 moveDirection = Vector3.zero;
 
     void Start()
@@ -37,6 +38,8 @@ public class SimpleCharacerController : MonoBehaviour
             {
                 moveDirection.y = jumpSpeed;
             }
+            
+            characterFaceDriection = Vector3.Slerp(characterFaceDriection, moveDirection, 10f * Time.deltaTime);
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
@@ -47,6 +50,8 @@ public class SimpleCharacerController : MonoBehaviour
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
         
+        // Animation
+        this.transform.forward = characterFaceDriection;
     }
 
     private void OnTriggerStay(Collider other)
