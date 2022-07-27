@@ -1,0 +1,46 @@
+{
+    "name": "Unity.Recorder.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Recorder.Base",
+        "Unity.Recorder",
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Editor",
+        "Unity.OpenImageIO"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "7.1.1",
+            "define": "CAPTURE_ACTION"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "10.3.0",
+            "define": "HDRP_ACCUM_API"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "7.3",
+            "define": "HDRP_AVAILABLE"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "8.9.9",
+            "define": "HDRP_LIGHTDECO_API"
+        }
+    ],
+    "noEngineReferences": false
+}

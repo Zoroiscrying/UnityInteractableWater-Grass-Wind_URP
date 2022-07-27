@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_VolumetricCloudGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 0fd16c267bc35634d9bb7a667bd7b9dd,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudTex02:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudTex02_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_AF3809E1_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexCloudGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexDetailNoise:
+        m_Texture: {fileID: 2800000, guid: 2b608712714165c4e993b6a0098cf0c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientInfluencer: 1
+    - _CloudHeight: 75
+    - _CloudStrength: 4
+    - _CloudThickness: 1.25
+    - _CloudTilling01: 0.02
+    - _CloudTilling02: -0.04
+    - _CloudsWorldPos: 150
+    - _Contrast: 1
+    - _DetailNoiseContrast: 2.83
+    - _DetailNoiseInfluence: 0.02
+    - _DetailNoiseTilling: 0.016
+    - _OuterMaskStrength: 2
+    - _SSSContrast: 8
+    - _SSSPower: 10
+    - _UseTex01: 0
+    - _UseTex02: 0
+    m_Colors:
+    - _CloudHardness: {r: 0.1, g: 1.04, b: -0.2, a: 1.85}
+    - _RollSpeed: {r: 0.01, g: 0.01, b: 0.04, a: 0.5}

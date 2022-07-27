@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Base_Unlit_Flag_Stick_Graph
+  m_Shader: {fileID: -6465566751694194690, guid: 255cecbd57e0ae243abf27055a3d39ad,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_A33C76ED: 0.7
+    m_Colors:
+    - _SurfaceColor: {r: 0.8396226, g: 0.60904014, b: 0.23366857, a: 0}
+    - _SurfaceColor2: {r: 0.5, g: 0.31814846, b: 0.1485849, a: 0}

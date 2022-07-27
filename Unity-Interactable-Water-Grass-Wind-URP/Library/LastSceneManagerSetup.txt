@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Showcase_Interactable_Grass_Ghibli_Style.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

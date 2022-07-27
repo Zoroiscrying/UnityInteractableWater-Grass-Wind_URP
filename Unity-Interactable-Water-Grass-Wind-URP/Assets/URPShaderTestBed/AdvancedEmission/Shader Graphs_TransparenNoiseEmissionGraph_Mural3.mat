@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_TransparenNoiseEmissionGraph_Mural3
+  m_Shader: {fileID: -6465566751694194690, guid: ae3745a4227a8914aa17554d0cddcfbd,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_9E37B618:
+        m_Texture: {fileID: 2800000, guid: f85accf7b4e6bfa45b9157dec470a379, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_88C0A707: 0.1
+    - Vector1_9C0A0CDB: 1
+    - Vector1_FD8EA93F: 0.1
+    m_Colors:
+    - Color_D3559F85: {r: 2.6980393, g: 4.266667, b: 5.301961, a: 1}
