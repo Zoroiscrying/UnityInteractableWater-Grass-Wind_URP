@@ -81,3 +81,7 @@ Fake Volumetric Cloud Rendering:
 
 ![Algorithm_Explanation_Volumetric_Cloud_Calculation](Resources/AlgorithmExplanation16.png)
 
+Procedural Modeling via Houdini:
+
+![Procedural_Model_Flag](Resources/Procedural_Model_Flag.jpg)<img src="Resources/Procedural_Model_Stylized_Tree.jpg" alt="Procedural_Model_Tree" style="zoom:75%;" />
+
