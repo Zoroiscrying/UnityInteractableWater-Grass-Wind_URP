@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace URPShaderTestBed.Grass
 {
@@ -10,8 +11,9 @@ namespace URPShaderTestBed.Grass
     
         [Min(0f)]
         public float GrassHeight = 1f;
-    
         
+        
+
         /// <summary>
         /// Set the object's default values.
         /// </summary>

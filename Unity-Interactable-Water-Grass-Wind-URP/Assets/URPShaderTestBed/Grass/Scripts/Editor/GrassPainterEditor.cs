@@ -12,7 +12,7 @@ namespace URPShaderTestBed.Grass
     public class GrassPainterEditor : UnityEditor.Editor
     {
         private static string _grassPainterType = "GrassPaintBrushSetting";
-
+        
         GeometryGrassPainter grassPainter;
         readonly string[] toolbarStrings = {"Add", "Remove", "Edit", "Smoothing"};
         private List<string> loadedBrushSettings = new List<string>();
